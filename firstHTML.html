@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="firstHTMLStyle.css">
+		<title>My Portfolio</title>
+		<h1>Halle's 
+		<img id= "gwc" src="http://www.likeabossgirls.com/wp-content/uploads/2015/06/girlswhocodegwc-logo.png"/>Portfolio</h1>
+		<script>
+			function click1(){
+			console.log("click1");
+				var words = document.getElementById("cityScroller");
+				console.log(words.alt);
+				if (words.alt=="cityScroller"){
+					words.alt="snowAnimation";
+					words.src="https://s32.postimg.org/gq9gfhss5/snow_Img.jpg";
+				} else {
+					words.src="https://s32.postimg.org/tgbfrlvhx/city_Scroller_Img.jpg";
+					words.alt="cityScroller";
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<img id="cityScroller" src="https://s32.postimg.org/tgbfrlvhx/city_Scroller_Img.jpg" alt="cityScroller"/>
+		<img id ="lilMan" src="https://s31.postimg.org/xk7oe0a57/lil_Man_Img.jpg" alt="lilMan"/>
+		<img src ="https://s31.postimg.org/478sf2p6z/b_Ball.jpg" />
+		<br>
+		<button type="button" class="btn" onclick="click1()">Click me to see another project</button>
+		<h3>Projects I've Done</h3>
+		<ul>
+		<li>Scratch</li>
+			<ol>
+				<li>Scratched</li>
+				<li>Shapes and Squares</li>
+				<li>Paddle Ball</li>
+				<li>Jukebox</li>
+			</ol>
+		<li>Python</li>
+			<ol>
+				<li>Madlibs</li>
+				<li>Text Adventure</li>
+				<li>Random Generator</li>
+				<li>Password Hashing</li>
+				<li>Turtle</li>
+					<ul>
+						<li>Draw Shapes</li>
+						<li>Shape Challenge</li>
+					</ul>
+			</ol>
+		<li>Pygame</li>
+			<ol>
+				<li>Bouncing Ball</li>
+				<li>Code Scaffolding</li>
+				<li>Snow Animation</li>
+			</ol>
+		<li>Robotics</li>
+			<ol>
+				<li>Push Button</li>
+				<li>Parallel vs Series</li>
+				<li>Blink</li>
+			</ol>
+	</body>
+</html>	

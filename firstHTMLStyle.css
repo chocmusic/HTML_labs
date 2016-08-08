@@ -1,0 +1,33 @@
+html {
+	background-color: Thistle;
+	font-family: Segoe UI;
+	background-image: url("http://www.benjeanshoughton.co.uk/00%20New%20Image%20Library/GIFS/flashing-colors-animated-different-31000.gif")
+}
+img {
+	height: 400px;
+	width: 400px;
+	text-align: center;
+}
+#gwc {
+	height: 171px;
+	width: 400px;
+	text-align: center;
+}
+h1 {
+	text-align: center;
+	color: DarkSlateBlue;
+	font-size: 70px;
+}
+h3 {
+	color: RebeccaPurple;
+	font-size: 40px;
+}
+ul {
+	color: Navy;
+	font-size: 20px;
+	text-align: center-left;
+}
+button {
+	font-family: Segoe UI;
+	font-weight: bold;
+}
